@@ -113,7 +113,7 @@ Exemple de log :
 
 | Prof | Salle | Action | Date |
 |------|-------|--------|------|
-| SIN | B203 | Lumière ON | 08:12 |
+| SIN | G113 | Lumière ON | 08:12 |
 
 ---
 
@@ -127,7 +127,7 @@ Communication locale via :
 
 Exemple logique :
 
-POST /api/salle/B203/lumiere  
+POST /api/salle/G113/lumiere  
 {  
   "etat": "on"  
 }

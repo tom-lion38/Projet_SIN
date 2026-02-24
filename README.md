@@ -72,8 +72,8 @@ Chaque utilisateur dispose :
 
 | Utilisateur | Salle | Droits |
 |-----------:|:-----:|:------|
-| Prof SIN   | B204  | Lumière, PC, chauffage |
-| Prof Maths | A102  | Lumière uniquement |
+| Prof SIN   | G113  | Lumière, PC, chauffage |
+| Prof Maths | C02 & C04  | Lumière uniquement |
 | CPE        | Toutes | Lumière + coupure générale |
 | Admin      | Global | Accès complet |
 

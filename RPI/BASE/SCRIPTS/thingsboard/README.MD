@@ -1,4 +1,4 @@
-# Projet_SIN – Installation native de ThingsBoard CE sur Raspberry Pi
+# Installation native de ThingsBoard CE sur Raspberry Pi
 
 ## Présentation
 

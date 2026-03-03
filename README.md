@@ -1,4 +1,4 @@
-﻿# 🏫 SmartSchool — Système d’Automatisation Intelligent (Raspberry Pi 4B + Arduino)
+# SmartSchool — Système d’Automatisation Intelligent (Raspberry Pi 4B + Arduino)
 
 > **Projet STI2D — Spécialité SIN**  
 > Plateforme centrale : **Raspberry Pi 4B** • Contrôle matériel : **Arduino**  
@@ -6,36 +6,36 @@
 
 ---
 
-## ✨ Présentation
+##  Présentation
 
 **SmartSchool** est un système d’automatisation modulaire visant à piloter intelligemment les équipements d’un lycée :
 
-- 💡 **Éclairage**
-- 💻 **Alimentation des PC**
-- 🌡️ **Chauffage**
-- 🔌 **Prises / zones électriques**
-- 🧠 **Automatisations** (horaires, présence, température, luminosité…)
+- **Éclairage**
+- **Alimentation des PC**
+- **Chauffage**
+- **Prises / zones électriques**
+- **Automatisations** (horaires, présence, température, luminosité…)
 
 Le projet repose sur une architecture hybride :
 
-- 🖥️ **Raspberry Pi 4B** : serveur central (interface web, authentification, permissions, base de données, logs)
-- ⚙️ **Arduino** : contrôle local (relais, capteurs, exécution des ordres)
+- **Raspberry Pi 4B** : serveur central (interface web, authentification, permissions, base de données, logs)
+- **Arduino** : contrôle local (relais, capteurs, exécution des ordres)
 
 ---
 
-## 🎯 Objectifs
+## Objectifs
 
-- ✅ Centraliser le contrôle des équipements
-- ✅ Réduire la consommation énergétique
-- ✅ Sécuriser l’accès par utilisateur (droits/permissions)
-- ✅ Démontrer une architecture **IoT + réseau + sécurité**
-- ✅ Mettre en place une solution évolutive, adaptée à un “smart building”
+- Centraliser le contrôle des équipements
+- Réduire la consommation énergétique
+- Sécuriser l’accès par utilisateur (droits/permissions)
+- Démontrer une architecture **IoT + réseau + sécurité**
+- Mettre en place une solution évolutive, adaptée à un “smart building”
 
 ---
 
-## 🧠 Architecture générale
+## Architecture générale
 
-### 🖥️ Raspberry Pi 4B (serveur central)
+### Raspberry Pi 4B (serveur central)
 
 Le Raspberry Pi héberge :
 - Interface web de contrôle (réseau local)
@@ -47,7 +47,7 @@ Le Raspberry Pi héberge :
 
 **Le Pi = le cerveau du système.**
 
-### ⚙️ Arduino (contrôle physique)
+### Arduino (contrôle physique)
 
 Chaque Arduino gère une salle ou une zone :
 - Modules **relais** (lumières, PC, chauffage…)
@@ -59,7 +59,7 @@ Chaque Arduino gère une salle ou une zone :
 
 ---
 
-## 🔐 Gestion des accès (sécurité)
+## Gestion des accès (sécurité)
 
 Chaque utilisateur dispose :
 - d’un **identifiant**
@@ -85,7 +85,7 @@ Le système vérifie toujours :
 
 ---
 
-## 🌐 Fonctionnement global
+## Fonctionnement global
 
 1. L’utilisateur se connecte via l’interface web (sur le Raspberry Pi)
 2. Le serveur vérifie l’identité et les permissions
@@ -95,7 +95,7 @@ Le système vérifie toujours :
 
 ---
 
-## 🧰 Technologies envisagées
+## Technologies envisagées
 
 ### Serveur (Raspberry Pi)
 - Raspberry Pi OS
@@ -113,7 +113,7 @@ Le système vérifie toujours :
 
 ---
 
-## 🌱 Optimisation énergétique
+## Optimisation énergétique
 
 SmartSchool vise des automatisations concrètes :
 - Extinction automatique hors horaires
@@ -124,7 +124,7 @@ SmartSchool vise des automatisations concrètes :
 
 ---
 
-## 🔭 Évolutions possibles
+## Évolutions possibles
 
 - Badge **RFID** (connexion rapide)
 - Application mobile interne

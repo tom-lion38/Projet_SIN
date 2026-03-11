@@ -1,5 +1,5 @@
-# 🏫 SMART LYCÉE CONTROL SYSTEM  
-## 🎓 Projet STI2D – Spécialité SIN  
+# SMART LYCÉE CONTROL SYSTEM  
+## Projet STI2D – Spécialité SIN  
 ### RPI / BASE – Serveur Central
 
 ---
@@ -12,35 +12,35 @@
 
 ---
 
-# 🧠 Centre de Commande du Lycée
+# Centre de Commande du Lycée
 
 Ce dossier représente le cerveau numérique du projet.
 
 Le Raspberry Pi 4B héberge l’infrastructure centrale permettant d’automatiser :
 
-- 💡 Les lumières  
-- 🖥️ Les ordinateurs  
-- 🔥 Le chauffage  
-- 🚪 Autres équipements électriques  
+- Les lumières  
+- Les ordinateurs  
+- Le chauffage  
+- Autres équipements électriques  
 
 Chaque professeur dispose d’un accès sécurisé limité à sa salle.
 
 ---
 
-# 🎯 Objectif du Serveur
+# Objectif du Serveur
 
 Centraliser :
 
-- 🌐 Interface Web  
-- 🔐 Authentification  
-- 🗄️ Base de données  
-- 🔌 API Arduino  
-- 📊 Logs & supervision  
-- 🏫 Gestion des salles  
+- Interface Web  
+- Authentification  
+- Base de données  
+- API Arduino  
+- Logs & supervision  
+- Gestion des salles  
 
 ---
 
-# 🏗️ Architecture Globale
+# Architecture Globale
 
 Professeur (PC / Tablette)  
         ↓  
@@ -56,14 +56,14 @@ Relais → Lumière / PC / Chauffage
 
 Le Raspberry Pi agit comme :
 
-- 🧠 Serveur central  
-- 🔐 Contrôleur d’accès  
-- 📡 Coordinateur réseau  
-- 🗃️ Gestionnaire de données  
+- Serveur central  
+- Contrôleur d’accès  
+- Coordinateur réseau  
+- Gestionnaire de données  
 
 ---
 
-# 🌐 Serveur Web
+# Serveur Web
 
 Permet aux professeurs :
 
@@ -81,7 +81,7 @@ Interface prévue :
 
 ---
 
-# 🔐 Système d’Authentification
+# Système d’Authentification
 
 Chaque professeur possède :
 
@@ -99,7 +99,7 @@ Exemple :
 
 ---
 
-# 🗄️ Base de Données
+# Base de Données
 
 Stocke :
 
@@ -117,7 +117,7 @@ Exemple de log :
 
 ---
 
-# 🔌 API & Communication Arduino
+# API & Communication Arduino
 
 Communication locale via :
 
@@ -136,7 +136,7 @@ L’Arduino active le relais correspondant.
 
 ---
 
-# 📊 Logs & Supervision
+# Logs & Supervision
 
 Chaque action est enregistrée :
 
@@ -154,7 +154,7 @@ Objectifs :
 
 ---
 
-# 🌍 Schéma Réseau
+# Schéma Réseau
 
 Internet  
    ↓  
@@ -170,7 +170,7 @@ Relais → Lumière / PC / Chauffage
 
 ---
 
-# 🛡️ Sécurité
+# Sécurité
 
 - Accès réseau local uniquement  
 - Authentification obligatoire  
@@ -180,7 +180,7 @@ Relais → Lumière / PC / Chauffage
 
 ---
 
-# 📦 Services à installer sur le Raspberry Pi
+# Services à installer sur le Raspberry Pi
 
 - Serveur Web  
 - Backend API  
@@ -191,19 +191,19 @@ Relais → Lumière / PC / Chauffage
 
 ---
 
-# 🚀 Évolutions Futures
+# Évolutions Futures
 
-- 📱 Application mobile  
-- 🔔 Alertes automatiques  
-- 🌡️ Capteurs température  
-- 🧍 Détection de présence  
-- 🔐 Badge RFID  
-- 📊 Dashboard administrateur global  
-- ⚡ Optimisation énergétique automatique  
+- Application mobile  
+- Alertes automatiques  
+- Capteurs température  
+- Détection de présence  
+- Badge RFID  
+- Dashboard administrateur global  
+- Optimisation énergétique automatique  
 
 ---
 
-# 🏫 Vision Finale
+# Vision Finale
 
 Un lycée où :
 
@@ -214,9 +214,9 @@ Un lycée où :
 
 ---
 
-🛠️ En développement  
-🎓 Projet d’automatisation intelligent – STI2D SIN  
-🧠 Hébergé sur Raspberry Pi 4B  
+En développement  
+Projet d’automatisation intelligent – STI2D SIN  
+Hébergé sur Raspberry Pi 4B  
 
 ---
 
